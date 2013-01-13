@@ -2,7 +2,7 @@
 
 header('Content-Type: text/html; charset=utf-8'); 
 
-require_once (dirname(__FILE__) . '/service/RaffleService.php');
+require_once (dirname(__FILE__) . '/Impl/service/RaffleService.php');
 
 if (date("l") == 'Saturday') {
 	echo "Hoje é Sábado, nada de restaurante no centro pra você!";
